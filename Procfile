@@ -1,1 +1,1 @@
-web: gunicorn duong.py:server
+web: gunicorn --timeout 600 --chdir src duong:server
