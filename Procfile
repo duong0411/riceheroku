@@ -1,1 +1,1 @@
-web: gunicorn duong:servergit init
+web: gunicorn duong:servergit add .
